@@ -79,6 +79,9 @@ a {
 	padding-bottom: 1.5em;
 	background: #3acec2;
 	margin-bottom: 30px;
+  /*height: 110px;
+    overflow: hidden;
+  */
 }
 
 .main-footer {
@@ -122,5 +125,12 @@ a {
     padding:10px;
     border: solid 1px #9e4ead;
 	}
+
+  .clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+    
+  }
 
 }
